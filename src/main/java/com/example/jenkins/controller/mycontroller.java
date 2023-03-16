@@ -10,6 +10,6 @@ public class mycontroller {
     
     @RequestMapping("/")
     public String hel(){
-        return "hello java world";
+        return "hello java1.8 world";
     }
 }
