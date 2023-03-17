@@ -5,15 +5,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class JenkinsApplication extends SpringBootServletInitializer {
+public class JenkinsApplication  {
 
 	public static void main(String[] args) {
 		
 		SpringApplication.run(JenkinsApplication.class, args);
 	}
-	@Override
-    protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-        return builder.sources(JenkinsApplication.class);
-    }
+	
 
 }
